@@ -29,7 +29,7 @@ var require = function(file) {
 // Polyfill for JSON.
 // Define an empty 'define' and 'define.c' to make the json3 work.
 var define = function () {};
-define.c = {};
+define.amd = {};
 require('../jsengines/json3.min');
 
 // Polyfill for Array.prototype.forEach
